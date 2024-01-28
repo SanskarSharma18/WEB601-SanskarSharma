@@ -1,21 +1,27 @@
-About Me:
+# SSharmaSpaceExploration
 
-Name: Sanskar Sharma
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
 
-Student ID: 0794654
+## Development server
 
-Overview:
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-Welcome to my Angular application for the WEB601 course assignments. 
-In this project, I'm developing a single-page application focused on the theme of Space Exploration. 
-The application aims to showcase captivating information about various aspects of space, including planets, satellites, space missions, astronauts, and more.
+## Code scaffolding
 
-Application Features:
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-Display detailed information about planets, satellites, space missions, and astronauts.
-Include engaging content, images, and facts related to space exploration.
-Utilize Angular components to present information in an organized and visually appealing manner.
+## Build
 
-Assignment Progress:
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-Assignment 1 (2024-01-27) : Initial setup and implementation of the Content-Card component for showcasing space-related content.
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
