@@ -1,4 +1,4 @@
-# A_Smith_WEB601Assignments_SpaceExploration
+# S_Sharma_WEB601Assignments_SpaceExploration
 
 ## Overview
 
