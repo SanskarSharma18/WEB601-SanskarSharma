@@ -1,0 +1,4 @@
+<div *ngFor="let content of contentList.slice(0, 5); let i = index">
+    <app-content-card [content]="content" [borderStyle]="i === 0 ? '2px solid black' : '1px solid #000'"></app-content-card>
+    
+  </div>
