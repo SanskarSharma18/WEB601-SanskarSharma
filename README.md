@@ -1,27 +1,45 @@
-# SSharmaSpaceExploration
+# S_Sharma_WEB601Assignments_SpaceExploration
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
+## Overview
 
-## Development server
+Welcome to my Angular application for the WEB601 course assignments. In this project, I'm developing a single-page application focused on the theme of Space Exploration. The application aims to showcase captivating information about various aspects of space, including planets, satellites, space missions, astronauts, and more.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## About Me
 
-## Code scaffolding
+- **Name:** Sanskar Sharma
+- **Student ID:** 0794654
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Application Features
 
-## Build
+- Display detailed information about planets, satellites, space missions, and astronauts.
+- Include engaging content, images, and facts related to space exploration.
+- Utilize Angular components to present information in an organized and visually appealing manner.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Assignment Progress
 
-## Running unit tests
+### Assignment 1
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Initial setup and implementation of the Content-Card component for showcasing space-related content.
 
-## Running end-to-end tests
+### Assignment 2
+**Assignment 2 (Summary)
+New Component - Content-list: Created a new Angular component named Content-list.
+Content-list Component: Defined an array of 6 or more Content items within the Content-list component.
+ngFor Directive in Content-list HTML: Utilized the ngFor directive to display 5 Content-card components in the Content-list HTML.
+Content-card Styling: Styled each Content-card with a 1-pixel border, header tag for the title, and organized display of content details.
+Image Click Event: Implemented a click event on the image to display the Content's id and title in the console.
+Styling Enhancements: Added necessary padding and margins for improved visual layout.
+First Content Card Border: Applied a black solid border of 2 pixels around the first Content-card.
+App-root Component Modification: Removed Content-card from app-root HTML and added Content-list for the home page display.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Assignment 3
+Updates:
+Version: Updated package.json to 0.0.3.
+Content: Expanded content with at least 7 items and varied type values.
+Type Filter Pipe: Created TypeFilterPipe for type-based filtering.
+HTML: Modified content-list.component.html for type-specific lists.
+Styling: Enhanced card styling based on type with CSS classes.
+Title Search: Added input and button for title search functionality.
+Highlighting (Bonus): Implemented content item highlighting.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Feel free to explore the code and provide any feedback. Thank you for checking out my project!
