@@ -1,0 +1,24 @@
+<div *ngFor="let content of contentList.slice(0, 5); let i = index">
+    <app-content-card [content]="content" [borderStyle]="i === 0 ? '2px solid black' : '1px solid #000'"></app-content-card>
+    
+  </div>
+  <div class="input">
+    <input type="text" name="title" [(ngModel)]="title">
+    <button (click)="checkTitle()">Submit</button>
+</div>
+
+<p class="message" [style.color]="isFound ? 'green' : 'red'">
+    {{ message }}
+</p>
+  
+<div class="container">
+    <div class="card-none">
+        <h2>No Type</h2>
+        <app-content-card *ngFor="let item of contentList | typeFilter:''" [content]="item"></app-content-card>
+    </div>
+
+    <div *ngFor="let type of types" [class]="'card-' + type.toLowerCase()">
+        <h2>{{ type }}</h2>
+        <app-content-card *ngFor="let item of contentList | typeFilter:'satellite' " [content]="item"></app-content-card>
+    </div>
+</div>

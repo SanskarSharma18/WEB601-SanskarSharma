@@ -1,17 +1,9 @@
 
-<h2>Space Exploration Content</h2>
-  
-  <!-- Mars -->
-  <div>
-    <h3 [innerHTML]="contentList.getContentDetails(0)"></h3>
-  </div>
-  
-  <!-- Jupiter -->
-  <div>
-    <h3 [innerHTML]="contentList.getContentDetails(1)"></h3>
-  </div>
-  
-  <!-- Voyager 1 -->
-  <div>
-    <h3 [innerHTML]="contentList.getContentDetails(2)"></h3>
-  </div>
+<div [style.border]="borderStyle">
+  <h2>{{ content.title }}</h2>
+  <img [src]="content.imgURL" alt="{{ content.title }}" (click)="handleClick()">
+  <p>{{ content.description }}</p>
+  <p>Creator: {{ content.creator }}</p>
+  <p *ngIf="content.type">Type: {{ content.type }}</p>
+  <p *ngIf="content.tags && content.tags.length > 0">Tags: {{ content.tags.join(', ') }}</p>
+</div>

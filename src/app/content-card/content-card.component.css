@@ -1,0 +1,8 @@
+app-content-card[type="Planet"] {
+    background-color: #c2e2f2; /* Light blue */
+  }
+  
+  /* Style for content cards with type 'Satellite' */
+  app-content-card[type="Satellite"] {
+    background-color: #ffd699; /* Light orange */
+  }
