@@ -22,8 +22,8 @@ Welcome to my Angular application for the WEB601 course assignments. In this pro
 - Initial setup and implementation of the Content-Card component for showcasing space-related content.
 
 ### Assignment 2
-**Assignment 2 (Summary)
-New Component - Content-list: Created a new Angular component named Content-list.
+
+- New Component - Content-list: Created a new Angular component named Content-list.
 Content-list Component: Defined an array of 6 or more Content items within the Content-list component.
 ngFor Directive in Content-list HTML: Utilized the ngFor directive to display 5 Content-card components in the Content-list HTML.
 Content-card Styling: Styled each Content-card with a 1-pixel border, header tag for the title, and organized display of content details.
@@ -33,7 +33,8 @@ First Content Card Border: Applied a black solid border of 2 pixels around the f
 App-root Component Modification: Removed Content-card from app-root HTML and added Content-list for the home page display.
 
 ### Assignment 3
-Updates:
+
+- Updates:
 Version: Updated package.json to 0.0.3.
 Content: Expanded content with at least 7 items and varied type values.
 Type Filter Pipe: Created TypeFilterPipe for type-based filtering.
