@@ -1,17 +1,23 @@
+<div [style.border]="borderStyle" class="card">
+  <h3 class="heading">{{ content.title }}</h3>
+  
+  <img class="img" *ngIf="content.imgURL; else defaultImage" [src]="content.imgURL" (click)="showDetails()"/>
 
-<h2>Space Exploration Content</h2>
+  <ng-template #defaultImage>
+    <img class="default-img" src="https://hips.hearstapps.com/hmg-prod/images/best-fall-movies-1659459329.jpg?crop=0.467xw:1.00xh;0.214xw,0&resize=1200:*" (click)="showDetails()"/>
+  </ng-template>
   
-  <!-- Mars -->
-  <div>
-    <h3 [innerHTML]="contentList.getContentDetails(0)"></h3>
+  <div  class="container">
+    <p>Description: {{ content.description }}</p>
+   
+    <p>Creator: {{ content.creator }}</p>
+   
+    <p appHoverAffect [typeStyle]="'textDecoration'">Type: {{ content.type }}</p>
+   
+    <div>Tags: 
+      <div class="list" *ngFor="let tag of content.tags" appHoverAffect [tagStyle]="'fontWeight'">
+        {{tag}}
+      </div>
+    </div>
   </div>
-  
-  <!-- Jupiter -->
-  <div>
-    <h3 [innerHTML]="contentList.getContentDetails(1)"></h3>
-  </div>
-  
-  <!-- Voyager 1 -->
-  <div>
-    <h3 [innerHTML]="contentList.getContentDetails(2)"></h3>
-  </div>
+</div>
